@@ -9,4 +9,4 @@ from temperature_and_humidity import app  # noqa E402
 if "FLASK_RUN_HOST" in os.environ:
     app.run(host=os.environ["FLASK_RUN_HOST"], port=8000)
 else:
-    app.run(port=5000)
+    app.run(port=8000)

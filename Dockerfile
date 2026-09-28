@@ -18,6 +18,6 @@ COPY . .
 ENV PYTHONPATH=/code
 ENV FLASK_RUN_HOST=0.0.0.0
 
-EXPOSE 5000
+EXPOSE 8000
 
 CMD ["python3", "run.py"]
